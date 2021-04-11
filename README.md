@@ -65,6 +65,8 @@ All processes are allocated.
 
 >Best-fit algorithm makes the most efficient of memory management. Among the four algorithms proposed, Best-fit is the only algorithm capable of allocating all the given processes to the smallest free partition that meets the requirement of the proesses. By searching for the smallest available free partition first, Best-fit algorithm results in the least external fragmentation compared to the other three algorithms.
 
+---
+
 #### Question 2
 Figure 1 shows the example of physical to logical address translation process for segmentation.
 Meanwhile, Figure 2 shows the hardware for address translation process. With reference to
@@ -90,6 +92,8 @@ Figure 2: Hardware arrangement for address translation
 ```python
 0010 1111 0000 B + 0010 0000 0010 0000 B = 0010 0010 0001 0000 B
 ```
+
+---
 
 #### Question 3
 Consider the following statement. A 512KB block of memory is allocated using the buddy system.
