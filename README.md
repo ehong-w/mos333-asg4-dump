@@ -59,3 +59,29 @@ All processes are allocated.
 - c. Among these 4 algorithms, evaluate which algorithm makes the most efficient of memory management? Justify you answer using your own words.
 
 >Best-fit algorithm makes the most efficient of memory management. Among the four algorithms proposed, Best-fit is the only algorithm capable of allocating all the given processes to the smallest free partition that meets the requirement of the proesses. By searching for the smallest available free partition first, Best-fit algorithm results in the least external fragmentation compared to the other three algorithms.
+
+#### Question 2
+Figure 1 shows the example of physical to logical address translation process for segmentation.
+Meanwhile, Figure 2 shows the hardware for address translation process. With reference to
+Figure 1 and Figure 2, explain in your own words how the logical address of 0001 0010 1111
+0000 is translated to physical address of 0010 0011 0001 0000 using the provided hardware
+arrangement.
+
+Figure 1: Example of physical to logical address translation
+
+Figure 2: Hardware arrangement for address translation
+
+> The 16-bit logical address is made up of 4-bit segment (MSB) followed by 12-bit offset. The 4-bit segment is... ...
+
+```
+          Length              Base
+  +-----------------+---------------------+
+1 | 0111  1011 1110 | 0010 0000 0010 0000 |
+  +-----------------+---------------------+
+```
+
+> After obtaining the length of the segment and... ...
+
+```
+0010 1111 0000 B + 0010 0000 0010 0000 B = 0010 0010 0001 0000 B
+```
