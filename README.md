@@ -9,7 +9,7 @@ In my own words,\
 
 ### Assignment 4
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/ehong-w/mos333-asg4-dump)
-![GitHub commit activity](https://img.shields.io/github/commit-activity/m/ehong-w/mos333-asg4-dump) 
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/ehong-w/mos333-asg4-dump)
 ![GitHub all releases](https://img.shields.io/github/downloads/ehong-w/mos333-asg4-dump/total)
 
 ---
